@@ -1,10 +1,10 @@
 
-import "./sass/main.scss";
+// import "./sass/main.scss";
 import { Notify } from 'notiflix/build/notiflix-notify-aio';
-import getPixabay from './moduleJS/fetchPixabay.js';
+import getPixabay from '/moduleJS/fetchPixabay.js';
 import SimpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
-import { option } from './moduleJS/fetchPixabay.js';
+import { option } from '/moduleJS/fetchPixabay.js';
 
 const inpuSearchForm = document.querySelector('#search-form');
 const galleryRef = document.querySelector('.gallery');
